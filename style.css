@@ -173,3 +173,41 @@ transition: all 0.7s ease-in-out;
 transform: translateY(-8px);
 box-shadow: 0 13px 17px rgb(0, 0, 0,0.5);
 }
+
+/* <!--dark mode--> */
+
+body.dark {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+body.dark .nav {
+  background-color: #020617;
+}
+body.dark .hero {
+  background-color: #0f172a;
+}
+
+body.dark .hero p {
+  color: #cbd5e1;
+}
+body.dark .skills {
+  background-color: #020617;
+}
+body.dark .project-grid article {
+  background-color: #1e293b;
+}
+body.dark .project-grid{
+   background-color: #020617;
+    color: #cbd5e1;
+}
+body.dark #projects h2{
+ background-color: #020617;
+ color: #f8fbfe;
+}
+body.dark #contact {
+  background-color: #020617;
+}
+
+body.dark footer {
+  background-color: #020617;
+}
