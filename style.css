@@ -142,6 +142,7 @@ gap: 30px;
   border-radius: 8px;
  background-color: #9854d7;
  color: #e6f4fb;
+ text-align: center;
 transition: all 0.7s ease;
 }
 .project-grid article:hover{
@@ -155,4 +156,20 @@ header{
      position: sticky;
     top: 0;
     z-index: 1000;
+}
+.project-grid a{
+padding: 7px;
+border-radius:8px ;
+box-shadow: 0 10px 7px rgb(0, 0, 0,0.5);
+border: none;
+background: slateblue;
+display: inline-block;
+text-decoration: none;
+color: #e6f4fb;
+transition: all 0.7s ease-in-out;
+}
+
+.project-grid a:hover{
+transform: translateY(-8px);
+box-shadow: 0 13px 17px rgb(0, 0, 0,0.5);
 }
