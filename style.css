@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  margin-bottom: 40px;
+}
+
+
+body{
+    background-color: #e6f4fb; /* light blue */
+  color: #1f2933;            /* dark readable text */
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 18px;
+  margin: 0px;
+    background-color: #0f172a; /* dark navy */
+    border-radius: 4px;
+}
+.nav ul{
+  display: flex;
+  gap: 10px;
+}
+
+ ul li{
+  list-style: none;
+}
+.hero{
+  padding: 28px 8px;
+  margin: auto;
+  max-width: 600px;
+}
+.hero h2{
+  margin-bottom: 10px
+}
+.skills h2{
+    text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav h2,
+.nav a {
+  color: #e5e7eb; /* light gray */
+}
+
+.nav a:hover {
+  color: #38bdf8; /* soft blue accent */
+}
+
+.hero {
+  background-color: #ffffff; /* clean white */
+  border-radius: 10px;
+}
+
+.hero h2 {
+  color: #0f172a; /* navy */
+}
+
+.hero p {
+  color: #334155; /* soft dark gray */
+}
+
+.skills {
+  background-color: #f8fafc; /* very light gray */
+}
+
+
+.skills-container{
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  padding: 15px;
+  flex-wrap: wrap;
+ 
+}
+.skill-card{
+  padding: 20px;
+  flex:1 1 auto;
+  border-radius: 8px;
+  min-width: 250px;
+    background: linear-gradient(135deg, #6366f1, #9333ea);
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  transition: all 0.7s ease;
+}
+.skill-card:hover{
+   transform: translateY(-10px);
+  box-shadow: 0 10px 8px rgb(0, 0, 0,0.5);
+}
+.skill-card h3 {
+  color: #ffffff;
+}
+
+.skill-card li {
+  color: #f1f5f9;
+}
+#projects {
+  background-color: #ffffff;
+}
+
+#projects h2 {
+  color: #0f172a;
+}
+.project-grid{
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+#contact {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+#contact a {
+  color: #38bdf8;
+}
+
+footer {
+  background-color: #020617;
+  color: #94a3b8;
+  text-align: center;
+}
+
+#projects h2{
+padding: 24px;
+}
+.project-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+gap: 30px;
+}
+.project-grid article{
+  padding: 15px;
+  border-radius: 8px;
+ background-color: #9854d7;
+ color: #e6f4fb;
+transition: all 0.7s ease;
+}
+.project-grid article:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 8px rgb(0, 0, 0,0.5);
+}
+section:last-of-type {
+  margin-bottom: 1px;
+}
+header{
+     position: sticky;
+    top: 0;
+    z-index: 1000;
+}
